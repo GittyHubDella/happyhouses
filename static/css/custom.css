@@ -1,0 +1,27 @@
+/* your styles go here */
+.navbar-default {
+    background-color: darksalmon;
+}
+
+#top > div > div > div.col-xs-5 > p.hidden-sm.hidden-xs {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "Contact us @ (760) 833-6334 or josephsardella@gmail.com";
+}
+
+.home-carousel {
+    background-image: none;
+}
+/* Example site test */
+
+.box-image-text .image {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.box-simple {
+    min-height: 230px;
+}
+
