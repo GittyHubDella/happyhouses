@@ -1,6 +1,42 @@
 /* your styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Lato:wght@300&display=swap');
+
+
+body {
+    font-family: 'Lato' sans-serif;
+}
+h1 {
+    font-family: 'Lato' sans-serif;   
+}
+
+h3 {
+    font-family: 'Lato' sans-serif;   
+}
+
+p {
+    font-family: 'Lato' sans-serif;   
+}
+
 .navbar-default {
-    background-color: darksalmon;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.bar.background-pentagon {
+    background: url('../img/car2.jpg');
+    border-top: solid 1px #999999;
+    border-bottom: solid 1px #999999;
+    color:white;
+}
+#all > section.bar.background-pentagon.no-mb > div > div > div > div > h2{
+    color: white;
+}
+
+.bar.background-image-fixed-2 {
+    background: url('../img/justin-sarye.jpg') center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #top > div > div > div.col-xs-5 > p.hidden-sm.hidden-xs {
@@ -12,7 +48,7 @@
 }
 
 .home-carousel {
-    background-image: none;
+    background-image: url('../img/car1.jpg')
 }
 /* Example site test */
 
@@ -25,3 +61,14 @@
     min-height: 230px;
 }
 
+#map {
+    display: none;
+}
+
+#content > div.hidden {
+    display: none;
+}
+
+#all > section:nth-child(3) > div > div.container > div > div.owl-wrapper-outer > div > div:nth-child(1) > div > div > div.col-sm-7 > img {
+    padding-left: 10%;
+}
